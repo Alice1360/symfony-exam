@@ -87,7 +87,7 @@ Liste des exercices
 
 ## 4. Formulaires et entités (4 points)
 
-- [ ] Commenter le code fait précédemment pour l'action `contact`, lors de l'exercice 3.3. 
+- [ ] Commenter le code fait précédemment pour l'action `index`, lors de l'exercice 3.3. 
 - [ ] Créer un formulaire `ContactType` pour gérer l'entité `Contact` (et les différents champs utiles)
 - [ ] Afficher ce formulaire dans la vue `default/contact.html.twig`
   - [ ] Le mettre en forme avec Bootstrap 4
@@ -188,6 +188,6 @@ Gimli et Legolas ont décidé de s'entrainer à nouveau ! Ils vont à nouveau s'
 
 #### 6.4.2. Quel appel d'une traduction est correct ?
 
-- `{{ 'Ceci est une traduction' }}`
-- `{{ 'Ceci est une traduction'|trans('front') }}`
-- `{{ 'Ceci est une traduction'|trans({}, 'front') }}`
+- [ ] `{{ 'Ceci est une traduction' }}`
+- [ ] `{{ 'Ceci est une traduction'|trans('front') }}`
+- [ ] `{{ 'Ceci est une traduction'|trans({}, 'front') }}`
