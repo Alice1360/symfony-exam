@@ -67,7 +67,7 @@ Liste des exercices
   - [ ] `subject`, string (255), non null
   - [ ] `message`, text, non null
   - [ ] `created_at`, datetime
-- [ ] Faire en sorte que la propriété prenne la date et heure du jour lors de la création d'un nouvel objet `Contact` (objet `DateTime` contenant la date et l'heure de création de l'objet)
+    - [ ] Faire en sorte que la propriété `created_at` prenne la date et heure du jour lors de la création d'un nouvel objet `Contact` (objet `DateTime` contenant la date et l'heure de création de l'objet)
 - [ ] Créer la table correspondante dans votre BdD
 
 ### 3.2. Enregistrement de données
