@@ -1,0 +1,31 @@
+{% extends 'default/layout.html.twig' %}
+
+{% block title %}Hello DefaultController!
+{% endblock %}
+
+{% block body %}
+	{% block header %}
+		<h1>Nous Contacter</h1>
+	{% endblock %}
+	{% block content %}
+		<p>
+			Nous sommes actuellement le :
+			{{  'now'|date("d/m/Y H:i:s", "Europe/Paris")  }}
+
+		</p>
+		{{ form_start(form) }}
+		{{ form_row(form.email) }}
+
+
+		{{ form_row(form.subject) }}
+		{{ form_row(form.message) }}
+
+
+		<button type="submit" class="btn btn-warning">Valider</button>
+
+
+		{{ form_end(form) }}
+
+	{% endblock %}
+
+{% endblock %}
